@@ -1,24 +1,24 @@
-import React            from 'react';
-import ReactDOM         from 'react-dom';
-import './index.css';
+import React,{Component} from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Switch, Redirect, Route, Link } from 'react-router-dom'
+import Home             from 'page/home/index.jsx';
 
-export default class App extends React.Component{
-    render() {
-        return (
-          <div className="shopping-list">
-            <h1>Shopping List for {this.props.name}</h1>
-            <ul>
-              <li className="text">Instagram</li>
-              <li>WhatsApp</li>
-              <li>Oculus</li>
-            </ul>
-          </div>
-        );
-      }
+
+class App extends React.Component{
+  render(){
+      return (
+          <Router>
+              <Switch>
+                  {/* <Route path="/login" component={Login}/> */}
+                  <Route path="/" component={Home}/>/>
+              </Switch>
+          </Router>
+      )
+  }
 }
 
 
 ReactDOM.render(
-    <App />,
-    document.getElementById('app')
+  <App />,
+  document.getElementById('app')
 );

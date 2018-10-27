@@ -6,6 +6,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
+    "start": "react-app-rewired start",
     "dev": "node_modules/.bin/webpack-dev-server",
     "dist": "WEBPACK_ENV=online node_modules/.bin/webpack -p",
     "dist_win": "set WEBPACK_ENV=online&& node_modules/.bin/webpack -p"
@@ -26,11 +27,14 @@
     "webpack-dev-server": "2.9.7"
   },
   "dependencies": {
+    "antd": "^3.10.3",
+    "babel-plugin-import": "^1.10.0",
     "node-sass": "^4.9.4",
     "prop-types": "15.6.0",
     "rc-pagination": "1.15.1",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
+    "react": "16.3.0",
+    "react-app-rewired": "^1.6.2",
+    "react-dom": "16.3.0",
     "react-router-dom": "4.2.2",
     "simditor": "^2.3.6"
   }

@@ -36,7 +36,10 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['env', 'react']
+                        presets: ['env', 'react'],
+                        plugins: [
+                            [  "import",{libraryName: "antd", style: 'css'}] // antd按需加载
+                        ]
                     }
                 }
             },
@@ -101,16 +104,16 @@ module.exports = {
     devServer: {
         port: 8086,
         historyApiFallback: {
-            index: '/dist/index.html'
+            index: '/dist/index.html'   //404 或招不到则返回首页
         },
         open:true,
         proxy : {
             '/manage' : {
-                target: '',
+                target: 'http://admintest.happymmall.com',
                 changeOrigin : true
             },
             '/user/logout.do' : {
-                target: '',
+                target: 'http://admintest.happymmall.com',
                 changeOrigin : true
             }
         }
