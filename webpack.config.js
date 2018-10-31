@@ -1,9 +1,11 @@
 /*
-* @Author: Rosen
-* @Date:   2018-01-13 11:26:52
- * @Last Modified by: 马里奥
- * @Last Modified time: 2018-10-29 13:07:19
-*/
+ * @Author: Jerrychan
+ * @Date: 2018-10-29 14:01:27
+ * @LastEditors: Jerrychan
+ * @LastEditTime: 2018-10-29 14:04:45
+ * @Description: 这是webpack配置文件
+ */
+
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
