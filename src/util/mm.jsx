@@ -1,9 +1,10 @@
 /*
-* @Author: Rosen
-* @Date:   2018-01-23 22:54:28
-* @Last Modified by:   Rosen
-* @Last Modified time: 2018-01-31 14:21:22
-*/
+ * @Author: Jerrychan
+ * @Date: 2018-11-01 13:51:39
+ * @LastEditors: Jerrychan
+ * @LastEditTime: 2018-11-01 13:51:39
+ * @Description: 登陆状体
+ */
 
 class MUtil{
     request(param){

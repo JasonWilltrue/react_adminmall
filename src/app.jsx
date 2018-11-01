@@ -1,9 +1,11 @@
 /*
-* @Author: Rosen
-* @Date:   2018-01-13 11:27:21
-* @Last Modified by:   Rosen
-* @Last Modified time: 2018-02-05 14:02:20
-*/  
+ * @Author: Jerrychan
+ * @Date: 2018-11-01 13:50:30
+ * @LastEditors: Jerrychan
+ * @LastEditTime: 2018-11-01 13:50:30
+ * @Description: 入口文件
+ */
+
 
 import React            from 'react';
 import ReactDOM         from 'react-dom';
