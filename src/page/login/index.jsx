@@ -64,6 +64,7 @@ class Login extends React.Component{
         return (
             <div className="col-md-4 col-md-offset-4">
                 <div className="panel panel-default login-panel">
+                    <img src={require("../../image/1.jpg")} style={{width:'100%',height: 150}}></img>
                     <div className="panel-heading">欢迎登录 - MMALL管理系统</div>
                     <div className="panel-body">
                         <div>

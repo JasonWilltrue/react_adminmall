@@ -40,6 +40,7 @@ class Home extends React.Component{
         return (
             <div id="page-wrapper">
                 <PageTitle title="首页" />
+                <img src={require('../../image/2.jpg')}   />
                 <div className="row">
                     <div className="col-md-4">
                         <Link to="/user" className="color-box brown">

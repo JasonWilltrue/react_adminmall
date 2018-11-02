@@ -3,7 +3,7 @@
  * @Date: 2018-11-01 13:51:39
  * @LastEditors: Jerrychan
  * @LastEditTime: 2018-11-01 13:51:39
- * @Description: 登陆状体
+ * @Description: 登陆状体封装
  */
 
 class MUtil{
